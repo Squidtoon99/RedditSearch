@@ -1,0 +1,17 @@
+{
+    "contentsDeltaUri": "gs://reddit-search-data/data",
+    "isCompleteOverwrite": true,
+    "config": {
+        "dimensions": 1408,
+        "approximateNeighborsCount": 150,
+        "distanceMeasureType": "DOT_PRODUCT_DISTANCE",
+        "featureNormType": "UNIT_L2_NORM",
+        "shardSize": "SHARD_SIZE_MEDIUM",
+        "algorithm_config": {
+            "treeAhConfig": {
+                "leafNodeEmbeddingCount": 1000,
+                "leafNodesToSearchPercent": 10
+            }
+        }
+    }
+}
