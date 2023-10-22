@@ -1,0 +1,3 @@
+[submodule "RedditSearchWeb"]
+	path = RedditSearchWeb
+	url = https://github.com/fgmx1653/Searchit-Web
